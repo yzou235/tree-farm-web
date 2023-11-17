@@ -1,0 +1,27 @@
+/* Homepage Styling */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Announcement Bar */
+.announcement-bar {
+    background-color: #b93d46;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.announcement-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.announcement-text {
+    display: flex;
+    align-items: start;
+}
