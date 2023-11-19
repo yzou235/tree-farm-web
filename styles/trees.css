@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    /* margin: 0;
+    padding: 0; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+/* Announcement Bar */
+.announcement-bar {
+    background-color: #b93d46;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.announcement-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.announcement-text {
+    display: flex;
+    align-items: start;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .5px solid #b93d46;
+}
+
+.nav-item a.nav-link {
+    text-decoration: none;
+    color: #595959;
+    font-size: 18px;
+}
+
+.nav-item a.nav-link:hover {
+    background-color: #c05059; /* Change the hover background color to red */
+    color: white; /* Change the hover text color to white */
+}
+
+.header-left .nav-item:nth-child(1) .nav-link {
+    color:#b93d46;
+}
+
+.header-left .nav-item:nth-child(1) .nav-link:hover {
+    background-color: #c05059; /* Change the hover background color to red */
+    color: white;
+}
+
+.header-right .nav-item:nth-child(3) .nav-link {
+    background-color: #b93d46; 
+    color: #ffffff;
+}
+
+.header-right .nav-item:nth-child(3) .nav-link:hover {
+    background-color: beige;
+    color:#b93d46;
+    font-weight: bolder;
+}
+
+.header-left, 
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-left:#b93d46 solid 1px;
+    border-right:#b93d46 solid 1px;
+}
+
+.header-center p {
+    font-family: Georgia, sans-serif;
+    font-weight: bolder;
+    color:#b93d46;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
