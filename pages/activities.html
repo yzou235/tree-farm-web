@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activities</title>
+    <link rel="stylesheet" href="../styles/activities.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+    </style>
+</head>
+<body>
+
+    <div class="header-container">
+        <div class="announcement-bar">
+            <div class="announcement-icon">
+                <img src="../images/exclamation-24.png" alt="announcement icon">
+            </div>
+            <div class="announcement-text">
+                Season Opening on November 18! 🎄 Limited parking—appointments preferred, walk-ins welcome. Contact us for details: 770-513-2552.
+            </div>
+        </div>
+        <header>
+            <div class="header-left">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trees.html">Trees</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Activities</a>
+                    </li>
+                </ul>
+    
+            </div>
+            <div class="header-center">
+                <p>Thompson's</p>
+                <p>Christmas</p>
+                <p>Tree Farm</p>
+            </div>
+            <div class="header-right">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.thompsonstreefarm.com/" target="_blank">
+                            <img src="../images/ins.png" alt="instagram logo" width="24px">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com/thompsonstreefarm" target="_blank">                 <img src="../images/fb.png" alt="facebook logo" width="24px"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
+
+    <main>
+
+    <h2 style="color: white; margin-bottom: 15px;">Plan Your Visit</h2>
+
+    <table>
+        <tr>
+            <td><img src="../images/u-cut-trees.jpg" alt="U Cut Trees" style="height: 80%"></td>
+            <td><img src="../images/photography.jpg" alt="Photography on the Farm" style="height:80%;"></td>
+        <tr style="color: #b93d46">
+            <td>U-Cut Trees</td>
+            <td>Photography on the Farm</td>
+        </tr>
+    </table>
+    
+    <hr class="border border-danger border-2 opacity-50" style="width:3000px">
+
+    <div class="wrapper">
+        <form action="#">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="FirstName" required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="LastName" required>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>               
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="Phone">
+                    </div>
+                </div>
+
+                <h4 style="color:white; margin-top: 8px;font-size: 24px; font-weight: bold;">Appointment Request</h4>
+
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="appointmentDate">Date</label>
+                        <input type="date" id="appointmentDate" name="appointmentDate" required>
+                        <input type="radio" id="morning" name="appointmentTime" value="morning">
+                        <label for="morning">Morning</label>
+                    
+                        <input type="radio" id="noon" name="appointmentTime" value="noon">
+                        <label for="noon">Noon</label>
+                    
+                        <input type="radio" id="afternoon" name="appointmentTime" value="afternoon">
+                        <label for="afternoon">Afternoon</label>
+                    
+                    </div>
+                </div>
+        
+                <button type="submit">Submit</button>
+
+            </div>
+        </form>
+    </div>
+    </main>
+
+    
+    <footer style="text-align: center; color: lightslategray;">
+        © 2023 Thompson's Tree Farm. Website created by Yuming Zou
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</body>
+</html>
