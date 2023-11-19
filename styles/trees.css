@@ -3,9 +3,9 @@ body {
     height: 100vh;
     /* margin: 0;
     padding: 0; */
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center; */
+    justify-content: space-between
 }
 
 /* Announcement Bar */
@@ -92,4 +92,37 @@ header {
     margin: 0;
     padding: 0;
     line-height: 1;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2{
+    width: 100%;
+    color: white;
+    background-color: #b93d46;
+    text-align: center;
+    font-weight: bolder;
+}
+
+table {
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
 }

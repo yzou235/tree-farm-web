@@ -5,16 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="../styles/contact-us.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
-        h3 {
-            color: #9e1712; 
-            font-family: Georgia; 
-            font-weight: bolder; 
-            font-size: 32px; 
-            text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.12); 
-            margin-bottom: 0; 
-            margin-top:0;
-        }
 
         h1{
             color: #9e1712; 
@@ -27,9 +19,56 @@
 </head>
 <body>
 
-    <img src="../images/xmas-gif.gif" alt="Merry Christmas GIF" class="head-gif">
+    <div class="header-container">
+        <div class="announcement-bar">
+            <div class="announcement-icon">
+                <img src="../images/exclamation-24.png" alt="announcement icon">
+            </div>
+            <div class="announcement-text">
+                Season Opening on November 18! 🎄 Limited parking—appointments preferred, walk-ins welcome. Contact us for details: 770-513-2552.
+            </div>
+        </div>
+        <header>
+            <div class="header-left">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trees</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Activities</a>
+                    </li>
+                </ul>
+    
+            </div>
+            <div class="header-center">
+                <p>Thompson's</p>
+                <p>Christmas</p>
+                <p>Tree Farm</p>
+            </div>
+            <div class="header-right">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.thompsonstreefarm.com/" target="_blank">
+                            <img src="../images/ins.png" alt="instagram logo" width="24px">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com/thompsonstreefarm" target="_blank">                 <img src="../images/fb.png" alt="facebook logo" width="24px"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
 
-    <h3>Thompson's Tree Farm</h3>
+    <main>
+        <img src="../images/xmas-gif.gif" alt="Merry Christmas GIF" class="head-gif">
+
     <h1>✨ ~ Contact Us ~ ✨</h1>
 
     <div class="wrapper">
@@ -64,7 +103,7 @@
                 <div class="col-md-12">
                     <div class="form-group">
                         <label for="subject" style="display:block;">Subject*</label>
-                    <select name="Subject" id="subject" required style="width:89%; height:22px;">
+                    <select name="Subject" id="subject" required style="width:100%; height:22px;">
                         <option value="appointment">Make an appointment</option>
                         <option value="events">Events and special requests</option>
                         <option value="issues">Website issues</option>
@@ -76,7 +115,7 @@
                 <div class="col-md-12">
                     <div class="form-group">
                         <label for="message">Message:</label>
-                        <textarea id="message" name="Message" rows="4" style="width:89%;" required></textarea>
+                        <textarea id="message" name="Message" rows="4" style="width:100%;" required></textarea>
                     </div>
                 </div>
         
@@ -85,10 +124,16 @@
             </div>
         </form>
     </div>
+    </main>
+
     
     <footer style="text-align: center; color: lightslategray;">
         © 2023 Thompson's Tree Farm. Website created by Yuming Zou
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
 
 </body>
 </html>
